@@ -6,7 +6,7 @@ const router = express.Router();
 /* GET home page. */
 router.get("/", (_req, res, _next) => {
   const host = os.hostname() || "Unknown";
-  return res.render("index", { title: "Express TS", host });
+  return res.render("index", { title: "NERC", host });
 });
 
 router.get("/health", (_req, res, _next) => {
