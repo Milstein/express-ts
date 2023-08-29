@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-LABEL author="tetchel@gmail.com"
+LABEL author="milsonmun@gmail.com"
 
 WORKDIR /app
 
