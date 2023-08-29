@@ -19,7 +19,7 @@ jobs:
           openshift_server_url: ${{ secrets.OPENSHIFT_SERVER }}
           openshift_token: ${{ secrets.OPENSHIFT_TOKEN }}
           insecure_skip_tls_verify: true
-          namespace: milson-dev
+          namespace: net-test-feb-7-874aa1
 
       - run: helm ls
 
