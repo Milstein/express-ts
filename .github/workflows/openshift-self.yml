@@ -34,9 +34,9 @@ name: OpenShift Self Hosted
 # https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets
 env:
   # ⬇️ EDIT with your registry and registry path.
-  REGISTRY: docker.io/tetchel
+  REGISTRY: docker.io/milstein
   # ⬇️ EDIT with your registry username.
-  REGISTRY_USER: tetchel
+  REGISTRY_USER: milstein
   REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
 
   # ⬇️ EDIT to log into your OpenShift cluster and set up the context.
@@ -48,7 +48,7 @@ env:
   APP_PORT: 3000
 
   # ⬇️ EDIT if you wish to set the kube context's namespace after login. Leave blank to use the default namespace.
-  OPENSHIFT_NAMESPACE: tetchell-dev
+  OPENSHIFT_NAMESPACE: milson-dev
 
   # If you wish to manually provide the APP_NAME and TAG, set them here, otherwise they will be auto-detected.
   APP_NAME: ""
